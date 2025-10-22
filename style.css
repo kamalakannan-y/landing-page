@@ -1,22 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-a {
-    text-decoration: none;
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
+.first {
+    height: 500px;
+    background-color: #1f2937;
+    padding-inline: 250px;
+}
+
+/* Header section */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-top: 20px;
 }
 
-.link {
+.hero-link {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
+
+.hero-link a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+/* Hero section */
+
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+/* Main layout */
 
 .main {
     display: flex;
+    justify-content: space-between;
 }
 
-.header, .footer, .main {
-    background-color: #1f2937;
+.main .hero-left {
+    width: 450px;
+    height: 230px;
 }
+
+.main .hero-right {
+    width: 500px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #757a87;
+}
+
+/* Buttons */
+
+button {
+    background-color: #3882f6;
+    padding: 7px 1em;
+    width: 120px;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.signup {
+    margin-top: 10px;
+}
+
+
