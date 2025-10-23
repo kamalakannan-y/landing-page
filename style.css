@@ -91,9 +91,54 @@ button {
     margin-top: 10px;
 }
 
+/* information */
+
+.second {
+    margin-inline: 350px;
+    margin-bottom: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.square {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+p {
+    font-size: 18px;
+    color: #696b6d;
+}
+
 /* Quote */
 
-.quote {
+.third {
     background-color: #e5e7eb;
     padding-inline: 370px;
     padding-block: 110px;
@@ -117,7 +162,7 @@ button {
 
 /* Call to action */
 
-.cta {
+.four {
     background-color: #3882f6;
     margin: 100px 250px;
     border-radius: 10px;
@@ -144,4 +189,3 @@ button {
     align-items: center;
     padding: 35px;
 }
-
