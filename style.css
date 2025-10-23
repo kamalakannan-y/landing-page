@@ -14,6 +14,7 @@ body {
 }
 
 /* Header section */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -90,17 +91,31 @@ button {
     margin-top: 10px;
 }
 
-.footer {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 35px;
-}
+/* Quote */
 
 .quote {
-    background-color: chartreuse;
+    background-color: #e5e7eb;
+    padding-inline: 370px;
+    padding-block: 110px;
 }
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+/* Call to action */
 
 .cta {
     background-color: #3882f6;
@@ -119,3 +134,14 @@ button {
 .cta-right button {
     border: 2px solid white;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
